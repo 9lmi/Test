@@ -10,3 +10,7 @@ class Article(models.Model):
 
 class Bla(models.Model):
     name = models.CharField(max_length=625)
+
+class Purup(models.Model):
+title = models.CharField(max_length=200)
+text = models.TextField()
