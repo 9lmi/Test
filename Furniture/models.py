@@ -14,3 +14,9 @@ class Bla(models.Model):
 class Purup(models.Model):
 title = models.CharField(max_length=200)
 text = models.TextField()
+
+
+class Lolo(models.Model):
+    title = models.CharField(max_length=200)
+    text = models.TextField()
+    user = models.ForeignKey(User)
