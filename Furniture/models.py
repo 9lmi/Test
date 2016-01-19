@@ -8,3 +8,5 @@ class Article(models.Model):
     text = models.TextField()
     user = models.ForeignKey(User)
 
+class Bla(models.Model):
+    name = models.CharField(max_length=625)
